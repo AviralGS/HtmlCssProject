@@ -1,0 +1,11 @@
+.socialLogo {
+    height: 32px;
+    width: 32px;
+}
+
+.social_media_container button {
+    height: 32px;
+    width: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+}
