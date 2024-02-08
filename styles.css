@@ -68,6 +68,43 @@ body {
 }
 
 .more-info {
-    display: grid;
     border: 2px solid black;
+    padding: 10px;
+}
+
+.infoHeading {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: row;
+}
+.iterative, .recursive {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer img {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
 }
